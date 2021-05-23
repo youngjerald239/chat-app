@@ -4,7 +4,9 @@
   "description": "An app that hosts a live chat between users",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Jerald Young",
   "license": "ISC",
